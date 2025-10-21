@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    width: 100%;
+    background-color: #1E2235;
+    transition: all 5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+main{
+    width:600px;
+    display: flex;
+    justify-content: center;
+    margin: 10% auto;
+}
+p{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+img{
+    cursor: pointer;
+    transition: all 1s ease;
+}
