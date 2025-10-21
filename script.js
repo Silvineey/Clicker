@@ -35,9 +35,15 @@ function contador(){
         }, 1000);
     }
     else if(indice===30){
-        document.body.style.backgroundColor="#475497ff"
+        document.body.style.backgroundColor="#5062bbff"
         setTimeout(() => {
             whey.style.transform="translatex(300px)"
+        }, 1000);
+    }
+    else if(indice===50){
+        document.body.style.backgroundColor="#5a6fd8ff"
+        setTimeout(() => {
+            whey.style.transform="translate(0)"
         }, 1000);
     }
 }
